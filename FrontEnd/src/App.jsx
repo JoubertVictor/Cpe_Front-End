@@ -1,6 +1,6 @@
 import "./App.css"
 import { Button } from "antd";
-import { DockerOutlined, DownloadOutlined } from "@ant-design/icons";
+import { DownloadOutlined } from "@ant-design/icons";
 import { DivTeste2 } from "./Style";
 
 function App() {
