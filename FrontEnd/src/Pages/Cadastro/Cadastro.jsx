@@ -11,7 +11,7 @@ function Cadastro(){
         <div>
             ESSa é a PAGINA CADASTRO
             <BotaoPadrao 
-            onClick = {() => navigate("/login")}
+            onClick = {() => navigate("/")}
             >
                 
             </BotaoPadrao>

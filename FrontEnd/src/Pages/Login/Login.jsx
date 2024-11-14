@@ -10,7 +10,7 @@ function Login(){
         <div>
             ESSa é a PAGINA LOGIn
             <BotaoPadrao
-            onClick={() => navigate("/")}
+            onClick={() => navigate("/cadastro")}
             >
                 
             </BotaoPadrao>
