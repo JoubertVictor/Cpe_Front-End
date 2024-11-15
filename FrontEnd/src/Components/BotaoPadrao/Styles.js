@@ -1,4 +1,4 @@
-import sltled, { styled } from "styled-components"
+import { styled } from "styled-components"
 
 export const StyleBotaoPadrao = styled.button`
 
