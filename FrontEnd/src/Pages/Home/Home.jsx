@@ -9,7 +9,7 @@ function Home(){
 
         <div>
             ESSa é a PAGINA HOME
-            <Header></Header>
+            <Header/>
             <BotaoPadrao 
             onClick={() => navigate("/login")}
             >
