@@ -1,5 +1,6 @@
 import BotaoPadrao from "../../Components/BotaoPadrao";
 import {useNavigate} from "react-router-dom";
+import Header from "../../Components/Header";
 
 function Home(){
 
@@ -8,6 +9,7 @@ function Home(){
 
         <div>
             ESSa é a PAGINA HOME
+            <Header></Header>
             <BotaoPadrao 
             onClick={() => navigate("/login")}
             >

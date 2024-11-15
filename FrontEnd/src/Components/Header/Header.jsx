@@ -11,3 +11,5 @@ export function Header() {
     </HeaderStyle>
   )
 }
+
+export default Header;
