@@ -1,15 +1,12 @@
-import { HeaderStyle, LinkStyle, Title, Nav } from './Styles'
+import React from 'react';
+import { HeaderStyle, Logo } from './Styles'
 
 export function Header() {
   return (
     <HeaderStyle>
-      <Title>CPE Header</Title>
-      <Nav>
-        <LinkStyle to="/">Início</LinkStyle>
-        <LinkStyle to="/sobre">Sobre</LinkStyle>
-      </Nav>
+      <Logo src="src/Assents/Logo.png" alt='Logo'/>
     </HeaderStyle>
-  )
+  );
 }
 
 export default Header;
