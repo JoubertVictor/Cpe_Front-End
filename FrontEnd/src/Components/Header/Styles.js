@@ -17,6 +17,7 @@ export const Logo = styled.img`
 width: 250px;
 height: auto;
 margin-right: 10px;
+flex-direction: column;
 `
 
 export const LinkStyle = styled(Link)` 
