@@ -1,21 +1,20 @@
 import { styled } from "styled-components"
 
 export const StyleBotaoPadrao = styled.button`
-
-display: inline-block;
+    display: inline-block;
     padding: 12px 24px;
     font-size: 18px;
     font-weight: bold;
     text-align: center;
-    color: #ffffff;
-    background-color: #3f51b5;
-    border-radius: 6px;
+    color: #000000;
+    background-color: #FFD700; 
+    border-radius: 25px; 
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
-
-    &hover {
-        background-color: #303f9f;
+    width: 200px; 
+    
+    &:hover {
+        background-color: #FFC700; 
     }
-
 `
